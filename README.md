@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Disclaimer
 
-Main goal of this repository is to provide a backbone for setting up React Hook Form with several enhancements such as zod resolvers, error message translation. Styling was reduced to a bare minimum.
+Main goal of this repository is to provide a backbone for setting up React Hook Form with several enhancements such as typescript, zod resolvers, error message translation. Styling was reduced to a bare minimum.
 
 ## Stack
 
