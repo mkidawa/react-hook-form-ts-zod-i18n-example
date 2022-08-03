@@ -8,13 +8,17 @@ Main goal of this repository is to provide a backbone for setting up React Hook 
 
 ## Stack
 
-### `Typescript`
+### `React Hook Form`
 
-Ensures type safety in terms of provided data
+React Hook Form provides methods and components necessary in form creation. In this example project logic of retrieving form field state has been transferred to nested components with usage of hooks such as `useFormContext` or `useController`.
 
 ### `zod`
 
-Great library to create resolvers that can be used with React Hook Form, apply restrictions and keep an eye on the shape of our actual data
+Great library to create resolvers that can be used with React Hook Form, apply restrictions and keep an eye on the shape of our data.
+
+### `react-i18next`
+
+i18n-react has been configured to provide translations for error messages.
 
 ## Scripts
 
