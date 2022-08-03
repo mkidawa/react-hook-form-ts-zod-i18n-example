@@ -1,5 +1,5 @@
 import { useController, useFormContext } from "react-hook-form";
-import { ErrorMessage } from "./ErrorMessage";
+import { BaseFormField } from "./BaseFormField";
 
 interface TextFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
   name: string;
@@ -26,12 +26,12 @@ export const TextField = ({
   });
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      <label>{label}</label>
-      <div>
-        <input {...rest} {...fieldProps} ref={ref} value={value} />
-      </div>
-      {error && <ErrorMessage name={name} errors={errors} />}
-    </div>
+    <BaseFormField
+      formField={<input {...rest} {...fieldProps} ref={ref} value={value} />}
+      name={name}
+      label={label}
+      error={!!error}
+      errors={errors}
+    />
   );
 };

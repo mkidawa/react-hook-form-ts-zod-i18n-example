@@ -1,5 +1,5 @@
-import { DemoForm, DemoFormDataType } from "components";
-import "./App.css";
+import { DemoForm } from "components";
+import { DemoFormDataType } from "types";
 
 function App() {
   const handleFormSubmit = (data: DemoFormDataType) => {

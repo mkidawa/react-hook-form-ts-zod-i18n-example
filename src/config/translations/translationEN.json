@@ -1,6 +1,8 @@
 {
   "errors": {
     "default": "Value is invalid",
-    "required": "This field is required."
+    "required": "This field is required.",
+    "tooShort": "This field value is too short.",
+    "incorrectPassword": "Incorrect password format"
   }
 }

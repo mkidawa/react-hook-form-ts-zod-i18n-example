@@ -19,7 +19,7 @@ export const ErrorMessage = ({ errors, name }: ErrorMessageProps) => {
     t([message], "errors.default");
 
   return (
-    <p>
+    <p className="form-error">
       <HookFormErrorMessage
         errors={errors}
         name={name}
