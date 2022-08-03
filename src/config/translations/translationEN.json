@@ -1,5 +1,6 @@
 {
   "errors": {
+    "default": "Value is invalid",
     "required": "This field is required."
   }
 }
