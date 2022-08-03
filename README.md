@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React Form Example with usage of React Hook Form, Typescript, zod and interationalization
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
