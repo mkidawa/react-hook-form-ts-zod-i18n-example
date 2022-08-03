@@ -10,15 +10,15 @@ Main goal of this repository is to provide a backbone for setting up React Hook 
 
 ### `React Hook Form`
 
-React Hook Form provides methods and components necessary in form creation. In this example project logic of retrieving form field state has been transferred to nested components with usage of hooks such as `useFormContext` or `useController`.
+[React Hook Form](https://react-hook-form.com/get-started) provides methods and components necessary in advanced form creation and state management. In this example project logic of retrieving form field state has been transferred to nested components with usage of hooks such as `useFormContext` or `useController`.
 
 ### `zod`
 
-Great library to create resolvers that can be used with React Hook Form, apply restrictions and keep an eye on the shape of our data.
+[Zod](https://github.com/colinhacks/zod) is a great schema validation library that can be used with React Hook Form, apply restrictions and keep an eye on the shape of our data.
 
 ### `react-i18next`
 
-i18n-react has been configured to provide translations for error messages.
+[i18n-react](https://react.i18next.com/) has been configured to provide translations for error messages.
 
 ## Scripts
 
